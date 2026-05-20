@@ -26,6 +26,9 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
+    /* clip (not hidden) contains off-screen reveal transforms without
+       creating a scroll container — keeps vertical/Lenis scroll intact */
+    overflow-x: clip;
   }
 
   body {
@@ -33,7 +36,8 @@
     color: var(--ink);
     font-family: var(--font-jost), system-ui, sans-serif;
     font-weight: 300;
-    overflow-x: hidden;
+    overflow-x: clip;
+    max-width: 100%;
   }
 
   ::selection {
