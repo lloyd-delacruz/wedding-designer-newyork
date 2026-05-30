@@ -24,11 +24,11 @@ const jost = Jost({
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: "Jude Jowilson — Luxury Wedding Designer in New York",
-    template: "%s · Jude Jowilson",
+    default: "New York Atelier — Luxury Wedding Designer in New York",
+    template: "%s · New York Atelier",
   },
   description:
-    "Jude Jowilson is a New York luxury wedding designer crafting bespoke, editorial celebrations. Timeless design, thoughtful detail, effortless beauty.",
+    "New York Atelier is a New York luxury wedding designer crafting bespoke, editorial celebrations. Timeless design, thoughtful detail, effortless beauty.",
   keywords: [
     "luxury wedding designer",
     "New York wedding planner",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   authors: [{ name: site.name }],
   alternates: { canonical: "/" },
   openGraph: {
-    title: "Jude Jowilson — Luxury Wedding Designer in New York",
+    title: "New York Atelier — Luxury Wedding Designer in New York",
     description:
       "Bespoke, editorial weddings designed in New York. Timeless design, thoughtful detail, effortless beauty.",
     url: site.url,
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Jude Jowilson — Luxury Wedding Designer in New York",
+    title: "New York Atelier — Luxury Wedding Designer in New York",
     description: "Bespoke, editorial weddings designed in New York.",
     images: ["/images/hero.jpg"],
   },

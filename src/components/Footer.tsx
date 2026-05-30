@@ -39,7 +39,7 @@ export default function Footer() {
       <div className="border-t border-ink/10 bg-cream px-6 py-6 md:px-12">
         <div className="mx-auto flex max-w-[1500px] flex-col items-center justify-between gap-4 sm:flex-row">
           <p className="font-sans text-[0.62rem] uppercase tracking-[0.26em] text-muted">
-            © {year} Jude Jowilson. All Rights Reserved.
+            © {year} New York Atelier. All Rights Reserved.
           </p>
           <nav aria-label="Social" className="flex items-center gap-5">
             <a

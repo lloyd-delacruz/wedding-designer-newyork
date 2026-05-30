@@ -4,7 +4,7 @@ import Reveal from "@/components/Reveal";
 
 export const metadata: Metadata = {
   title: "Terms",
-  description: "The terms governing use of the Jude Jowilson website.",
+  description: "The terms governing use of the New York Atelier website.",
   alternates: { canonical: "/terms" },
   robots: { index: false, follow: true },
 };
@@ -17,7 +17,7 @@ export default function TermsPage() {
         <Reveal>
           <div className="mx-auto max-w-prose2 space-y-6 text-[1.02rem] font-light leading-[1.85] text-cocoa">
             <p>
-              This website and its contents are the property of Jude Jowilson. All
+              This website and its contents are the property of New York Atelier. All
               photography, text and design are protected by copyright and may not be
               reproduced without written permission.
             </p>
@@ -28,8 +28,8 @@ export default function TermsPage() {
             </p>
             <p>
               By using this site you agree to these terms. Questions may be directed to{" "}
-              <a href="mailto:info@judejowilson.com" className="link-underline">
-                info@judejowilson.com
+              <a href="mailto:hello@newyorkatelier.com" className="link-underline">
+                hello@newyorkatelier.com
               </a>
               .
             </p>

@@ -8,7 +8,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Bridal Design",
   description:
-    "A portfolio of bespoke bridal and wedding design by Jude Jowilson — Classic Romance, Modern Elegance, Timeless New York and Refined & Intimate.",
+    "A portfolio of bespoke bridal and wedding design by New York Atelier — Classic Romance, Modern Elegance, Timeless New York and Refined & Intimate.",
   alternates: { canonical: "/bridal" },
 };
 
@@ -46,7 +46,7 @@ const collections = [
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  name: "Bridal Design — Jude Jowilson",
+  name: "Bridal Design — New York Atelier",
   url: `${site.url}/bridal`,
   hasPart: collections.map((c) => ({
     "@type": "ImageObject",

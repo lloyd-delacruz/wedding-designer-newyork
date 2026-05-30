@@ -8,7 +8,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Journal",
   description:
-    "Notes on design, florals and the art of the celebration from the Jude Jowilson atelier in New York.",
+    "Notes on design, florals and the art of the celebration from the New York Atelier.",
   alternates: { canonical: "/journal" },
 };
 
@@ -56,7 +56,7 @@ const posts = [
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Blog",
-  name: "The Jude Jowilson Journal",
+  name: "The New York Atelier Journal",
   url: `${site.url}/journal`,
   blogPost: [featured, ...posts].map((p) => ({
     "@type": "BlogPosting",

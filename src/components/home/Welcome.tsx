@@ -10,7 +10,7 @@ export default function Welcome() {
         className="pointer-events-none absolute right-[-2%] top-1/2 -translate-y-1/2 select-none font-serif font-light leading-none text-sand/60"
         style={{ fontSize: "clamp(16rem, 38vw, 40rem)" }}
       >
-        JJ
+        NY
       </span>
 
       <div className="relative z-10 mx-auto max-w-2xl text-center">

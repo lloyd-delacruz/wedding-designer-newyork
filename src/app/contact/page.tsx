@@ -7,14 +7,14 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Inquire",
   description:
-    "Begin the conversation with Jude Jowilson, luxury wedding designer in New York. Tell us about your celebration and we will reply personally.",
+    "Begin the conversation with New York Atelier, a luxury wedding designer in New York. Tell us about your celebration and we will reply personally.",
   alternates: { canonical: "/contact" },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ContactPage",
-  name: "Contact Jude Jowilson",
+  name: "Contact New York Atelier",
   url: `${site.url}/contact`,
 };
 

@@ -5,7 +5,7 @@ import Reveal from "@/components/Reveal";
 export const metadata: Metadata = {
   title: "Press",
   description:
-    "Selected press and features for Jude Jowilson, luxury wedding designer in New York — Vogue, Brides, Style Me Pretty, The Knot, Harper's Bazaar and more.",
+    "Selected press and features for New York Atelier, a luxury wedding designer in New York — Vogue, Brides, Style Me Pretty, The Knot, Harper's Bazaar and more.",
   alternates: { canonical: "/press" },
 };
 
@@ -27,7 +27,7 @@ const features = [
   {
     pub: "Harper's Bazaar",
     year: "2024",
-    quote: "Restraint as a love language — Jowilson's weddings feel less designed than discovered.",
+    quote: "Restraint as a love language — these weddings feel less designed than discovered.",
   },
   {
     pub: "Brides",

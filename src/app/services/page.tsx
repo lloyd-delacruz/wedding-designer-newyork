@@ -7,7 +7,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "Full wedding design, creative direction, floral and tablescape design, and destination celebrations — bespoke services from the Jude Jowilson atelier in New York.",
+    "Full wedding design, creative direction, floral and tablescape design, and destination celebrations — bespoke services from New York Atelier.",
   alternates: { canonical: "/services" },
 };
 

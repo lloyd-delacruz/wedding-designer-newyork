@@ -1,16 +1,16 @@
 export const site = {
-  name: "Jude Jowilson",
+  name: "New York Atelier",
   role: "Wedding Designer",
   location: "New York",
-  url: "https://judejowilson.com",
-  email: "info@judejowilson.com",
-  phone: "+1 (917) 472-7613",
-  phoneHref: "tel:+19174727613",
+  url: "https://newyorkatelier.com",
+  email: "hello@newyorkatelier.com",
+  phone: "+1 (917) 888-8888",
+  phoneHref: "tel:+19178888888",
   address: {
-    street: "128 West 36th Street, 4th Floor",
+    street: "412 West 25th Street, 3rd Floor",
     city: "New York",
     region: "NY",
-    postal: "10018",
+    postal: "10001",
     country: "US",
   },
   social: {

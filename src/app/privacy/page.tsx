@@ -4,7 +4,7 @@ import Reveal from "@/components/Reveal";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "How Jude Jowilson collects, uses and protects your information.",
+  description: "How New York Atelier collects, uses and protects your information.",
   alternates: { canonical: "/privacy" },
   robots: { index: false, follow: true },
 };
@@ -30,8 +30,8 @@ export default function PrivacyPage() {
             <p>
               You may request access to, correction of, or deletion of your information at
               any time by writing to{" "}
-              <a href="mailto:info@judejowilson.com" className="link-underline">
-                info@judejowilson.com
+              <a href="mailto:hello@newyorkatelier.com" className="link-underline">
+                hello@newyorkatelier.com
               </a>
               .
             </p>

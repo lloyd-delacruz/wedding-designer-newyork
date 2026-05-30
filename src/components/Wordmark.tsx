@@ -10,7 +10,7 @@ export default function Wordmark({
   return (
     <Link
       href="/"
-      aria-label="Jude Jowilson — Wedding Designer, New York. Home"
+      aria-label="New York Atelier — Wedding Designer, New York. Home"
       className={`group inline-flex flex-col leading-none ${className}`}
     >
       <span
@@ -18,7 +18,7 @@ export default function Wordmark({
           light ? "text-cream" : "text-ink"
         }`}
       >
-        JUDE JOWILSON
+        NEW YORK ATELIER
       </span>
       <span
         className={`mt-1.5 font-sans text-[0.5rem] md:text-[0.55rem] font-light uppercase tracking-[0.42em] ${

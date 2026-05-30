@@ -8,7 +8,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "About the Designer",
   description:
-    "Jude Jowilson is a fashion designer with over twenty years' experience creating custom evening gowns and wedding dresses — couture quality, hand-crafted in the USA, now a bridal collection in New York.",
+    "A New York atelier with over twenty years' experience creating custom evening gowns and wedding dresses — couture quality, hand-crafted in the USA, now a bridal collection in New York.",
   alternates: { canonical: "/about" },
 };
 
@@ -17,19 +17,14 @@ const hallmarks = ["Couture quality", "Delicate embroidery", "Intricate draping"
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "AboutPage",
-  name: "About Jude Jowilson",
+  name: "About New York Atelier",
   url: `${site.url}/about`,
   about: {
-    "@type": "Person",
+    "@type": "Organization",
     name: site.name,
-    jobTitle: "Fashion & Bridal Designer",
     description:
-      "Fashion designer with over twenty years' experience creating custom-made evening gowns and wedding dresses. Couture quality, hand-crafted in the USA.",
-    alumniOf: [
-      { "@type": "CollegeOrUniversity", name: "Parsons The New School for Design" },
-    ],
-    birthPlace: { "@type": "Place", name: "Cebu City, Philippines" },
-    workLocation: { "@type": "Place", name: "New York, NY" },
+      "A New York atelier with over twenty years' experience creating custom-made evening gowns and wedding dresses. Couture quality, hand-crafted in the USA.",
+    areaServed: { "@type": "Place", name: "New York, NY" },
   },
 };
 
@@ -42,7 +37,7 @@ export default function AboutPage() {
         eyebrow="The Designer"
         title="Two Decades in"
         titleItalic="Couture"
-        lede="Jude Jowilson is a fashion designer with over twenty years' experience creating custom-made evening gowns and wedding dresses."
+        lede="A New York atelier with over twenty years' experience creating custom-made evening gowns and wedding dresses."
       />
 
       {/* Journey */}
@@ -63,19 +58,19 @@ export default function AboutPage() {
             <div className="max-w-xl">
               <p className="eyebrow mb-6">The Journey</p>
               <h2 className="display text-ink text-[clamp(2rem,3.6vw,2.9rem)]">
-                From Cebu to <span className="italic text-cocoa">New York.</span>
+                A New York <span className="italic text-cocoa">atelier.</span>
               </h2>
               <div className="lede mt-7 space-y-5 text-[1.02rem]">
                 <p>
-                  Inspired by his grandmother, a skilled home-based seamstress, Jude
-                  developed an interest in fashion at an early age. He graduated with a
-                  Bachelor of Fine Arts and later opened his own boutique in his native
-                  Cebu City, Philippines.
+                  Our atelier was born from a lifelong love of fashion — a fascination with
+                  fabric, form and the quiet craft of a well-made garment. It began with
+                  custom eveningwear, made one piece at a time for clients who wanted
+                  something entirely their own.
                 </p>
                 <p>
-                  He came to New York City to continue his education in fashion design at
-                  Parsons The New School for Design, and is now launching his own bridal
-                  collection under the Jude Jowilson brand.
+                  That work brought us to New York City, where the practice deepened into
+                  couture-level bridal — and today, a full bridal collection designed and
+                  hand-made under the New York Atelier name.
                 </p>
               </div>
               <Link href="/bridal" className="link-underline mt-9 inline-block">
@@ -108,13 +103,12 @@ export default function AboutPage() {
               </h2>
               <div className="lede mt-7 space-y-5 text-[1.02rem]">
                 <p>
-                  Jude Jowilson&rsquo;s design aesthetic is sophisticated, classic with a
-                  modern approach and exquisite attention to detail. His gowns are
-                  manufactured and hand-crafted in the USA, using the finest fabrics and
-                  materials.
+                  Our design aesthetic is sophisticated, classic with a modern approach and
+                  exquisite attention to detail. Every gown is manufactured and hand-crafted
+                  in the USA, using the finest fabrics and materials.
                 </p>
                 <p>
-                  He specializes in couture quality with delicate embroideries, intricate
+                  We specialize in couture quality with delicate embroideries, intricate
                   draping and dramatic silhouettes that define luxurious elegance.
                 </p>
               </div>
@@ -133,11 +127,11 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* In His Words */}
+      {/* In Our Words */}
       <section className="bg-cream px-6 py-24 md:px-12 md:py-32">
         <div className="mx-auto max-w-3xl text-center">
           <Reveal>
-            <p className="eyebrow mb-8">In His Words</p>
+            <p className="eyebrow mb-8">In Our Words</p>
           </Reveal>
           <Reveal delay={0.08}>
             <p className="font-serif text-[clamp(1.5rem,2.8vw,2.1rem)] font-light italic leading-snug text-cocoa">
@@ -163,7 +157,7 @@ export default function AboutPage() {
           </Reveal>
           <Reveal delay={0.24}>
             <p className="mt-10 font-sans text-[0.62rem] uppercase tracking-[0.32em] text-gold-deep">
-              Jude Jowilson &middot; Founder &amp; Designer
+              New York Atelier &middot; Founder &amp; Designer
             </p>
           </Reveal>
         </div>
@@ -180,7 +174,7 @@ export default function AboutPage() {
               No fuss, no frills, always a statement and never overlooked.&rdquo;
             </p>
             <footer className="mt-9 font-sans text-[0.65rem] uppercase tracking-[0.32em] text-gold-soft">
-              Jude Jowilson
+              New York Atelier
             </footer>
           </blockquote>
         </Reveal>

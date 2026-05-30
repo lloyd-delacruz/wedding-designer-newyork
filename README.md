@@ -1,4 +1,4 @@
-# Jude Jowilson — Luxury Wedding Designer
+# New York Atelier — Luxury Wedding Designer
 
 A bespoke, editorial website for a New York luxury wedding designer. Built to recreate
 the supplied reference design (`assets/wedding-designer.png`) at production quality —
